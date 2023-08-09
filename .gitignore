@@ -20,19 +20,12 @@ parts/
 sdist/
 var/
 wheels/
-<<<<<<< HEAD
 pip-wheel-metadata/
 share/python-wheels/
-=======
->>>>>>> master
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
-<<<<<<< HEAD
-=======
-comparisons/
->>>>>>> master
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -47,20 +40,14 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
-<<<<<<< HEAD
 .nox/
-=======
->>>>>>> master
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
-<<<<<<< HEAD
 *.py,cover
-=======
->>>>>>> master
 .hypothesis/
 .pytest_cache/
 
@@ -72,10 +59,7 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
-<<<<<<< HEAD
 db.sqlite3-journal
-=======
->>>>>>> master
 
 # Flask stuff:
 instance/
@@ -85,12 +69,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-<<<<<<< HEAD
 docs/_build/
-=======
-docs/en/_build/
-docs/zh_cn/_build/
->>>>>>> master
 
 # PyBuilder
 target/
@@ -98,7 +77,6 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-<<<<<<< HEAD
 # IPython
 profile_default/
 ipython_config.py
@@ -119,13 +97,6 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
-=======
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
->>>>>>> master
 
 # SageMath parsed files
 *.sage.py
@@ -138,10 +109,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-<<<<<<< HEAD
-=======
-.DS_Store
->>>>>>> master
 
 # Spyder project settings
 .spyderproject
@@ -155,25 +122,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-<<<<<<< HEAD
 .dmypy.json
 dmypy.json
 
 # Pyre type checker
 .pyre/
-=======
-
-data/
-.vscode
-.idea
-
-# custom
-*.pkl
-*.pkl.json
-*.log.json
-work_dirs/
-mmseg/.mim
-
-# Pytorch
-*.pth
->>>>>>> master
