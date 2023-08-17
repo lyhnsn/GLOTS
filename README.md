@@ -9,9 +9,9 @@ The codebase of "[Rethinking Transformers for Semantic Segmentation of Remote Se
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={Rethinking Transformers for Semantic Segmentation of Remote Sensing Images}, 
   year={2023},
-  volume={},
+  volume={61},
   number={},
-  pages={1-1},
+  pages={1-15},
   doi={10.1109/TGRS.2023.3302024}}
 ```
 
