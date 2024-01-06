@@ -26,24 +26,24 @@ Download the [Model](https://conversationhub.blob.core.windows.net/beit-share-pu
 ## Data Preparation
 
 Put the remote sensing datasets into `data/` directory as follows:
-
---- Vaihingen/
-  ├-- img_dir/
-  │   ├-- train/
-  │   │     ├-- 0001.jpg
-  │   │     ├-- 0002.jpg
-  │   │     └-- ...
+```
+Vaihingen/
+  ├── img_dir/
+  │   ├── train/
+  │   │     ├── 0001.jpg
+  │   │     ├── 0002.jpg
+  │   │     └── ...
   │   │
-  │   └-- val/
+  │   └── val/
   │ 
-  └-- ann_dir/
-      ├-- train/
-      │     ├-- 0001.txt
-      │     ├-- 0002.txt
-      │     └-- ...
+  └── ann_dir/
+      ├── train/
+      │     ├── 0001.txt
+      │     ├── 0002.txt
+      │     └── ...
       │
-      └-- val/
-   
+      └── val/
+```
 
 ## Usage
 
