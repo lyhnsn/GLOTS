@@ -23,6 +23,28 @@ Please refer to [get_started.md](https://github.com/open-mmlab/mmsegmentation/bl
 
 Download the [Model](https://conversationhub.blob.core.windows.net/beit-share-public/beitv2/beitv2_base_patch16_224_pt1k_ft21k.pth?sv=2021-10-04&st=2023-06-08T11%3A16%3A02Z&se=2033-06-09T11%3A16%3A00Z&sr=c&sp=r&sig=N4pfCVmSeq4L4tS8QbrFVsX6f6q844eft8xSuXdxU48%3D) and put it under the folder 'pretrain'.
 
+## Data Preparation
+
+Put the remote sensing datasets into `data/` directory as follows:
+
+--- Vaihingen/
+  ├-- img_dir/
+  │   ├-- train/
+  │   │     ├-- 0001.jpg
+  │   │     ├-- 0002.jpg
+  │   │     └-- ...
+  │   │
+  │   └-- val/
+  │ 
+  └-- ann_dir/
+      ├-- train/
+      │     ├-- 0001.txt
+      │     ├-- 0002.txt
+      │     └-- ...
+      │
+      └-- val/
+   
+
 ## Usage
 
 ### train (example)

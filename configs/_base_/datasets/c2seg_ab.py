@@ -3,7 +3,6 @@ dataset_type = 'C2SegDataset'
 data_root = 'data/c2seg_ab'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
-    # TODO: calculate a specific mean and deviation for the dataset 
 crop_size = (640, 640)
 train_pipeline = [
     dict(type='LoadImageFromFile'),

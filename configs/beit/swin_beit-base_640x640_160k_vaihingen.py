@@ -5,8 +5,7 @@ _base_ = [
 
 # model cfg
 model = dict(
-    # pretrained='pretrain/beit_base_patch16_224_pt22k_ft22k.pth',
-    pretrained='pretrain/beitv2_base_patch16_224_pt1k_ft21k.pth',
+    # pretrained='pretrain/beitv2_base_patch16_224_pt1k_ft21k.pth',
     decode_head=dict(num_classes=6), # reversely index
     auxiliary_head=dict(num_classes=6),
     test_cfg=dict(crop_size=(640, 640)))
