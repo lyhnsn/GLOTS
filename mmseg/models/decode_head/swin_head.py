@@ -20,7 +20,7 @@ from ...utils import get_root_logger
 from ..utils.embed import PatchEmbed, PatchMerging
 
 from ..builder import HEADS
-from .decode_heads import BaseDecodeHead
+from .decode_head import BaseDecodeHead
 from ..backbones.vit import MultiheadAttention
 
 
