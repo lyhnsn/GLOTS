@@ -788,8 +788,6 @@ class SwinHead(BaseDecodeHead):
             
                 inputs[i+1] += out # multi-scale addition
             else:
-                gab_out = self.gab(x)
-                out += gab_out # add global attention
                 out = norm_layer(out)
                 out = out.view(-1, *out_hw_shape, self.embed_dims).permute(0, 3, 1,
                                                                     2).contiguous()
