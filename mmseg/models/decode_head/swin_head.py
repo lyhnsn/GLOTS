@@ -793,5 +793,6 @@ class SwinHead(BaseDecodeHead):
                 out = norm_layer(out)
                 out = out.view(-1, *out_hw_shape, self.embed_dims).permute(0, 3, 1,
                                                                     2).contiguous()
+        out_put = self.cls_seg(out)
 
-        return out
+        return out_put
